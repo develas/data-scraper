@@ -1,0 +1,38 @@
+body{
+    font-family: Arial;
+}
+
+.myHeader{
+    width: 250px !important;
+    margin: 0 auto !important;
+}
+
+.search{
+    position: relative;
+    border: 1px solid;
+    padding-left: 15px;
+    width: 230px;
+    height: 28px;
+    right: 1px;
+    top: 1px;
+    border-radius: 14px;
+}
+
+.search input{
+    height: 26px;
+    width: 185px;
+    border: none;
+    outline: none;
+}
+
+.search img{
+    position: absolute;
+    margin-right: 3px;
+    margin: 5px 4px 3px;
+    right: 4px;
+    opacity: .5;
+}
+
+.custom-select{
+    outline:1px solid red;
+}

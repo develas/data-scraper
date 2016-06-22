@@ -1,0 +1,5 @@
+{
+	"port": 3000,
+  "depth": 3,
+  "maxToParse": 20
+}

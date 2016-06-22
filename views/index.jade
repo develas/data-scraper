@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title Data scraper
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    .myHeader
+      h1#title Data scraper
+      div.search
+        input(type="text" placeholder="Enter URL" required)#search
+        img(src="/images/magnifying-glass-2x.png" alt="")
+    block content
+    #container
+    script(src='/javascripts/jquery-2.2.1.js')
+    script(src='/javascripts/main.js')
